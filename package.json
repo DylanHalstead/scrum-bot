@@ -2,18 +2,18 @@
   "name": "scrum-mate",
   "version": "0.0.1",
   "description": "a discord bot to help automate and streamline agile meetings",
-  "main": "app.ts",
+  "main": "index.js",
   "engines": {
     "npm": ">=9.0.0 <10.0.0",
     "node": ">=18.0.0 <19.0.0"
   },
   "scripts": {
-    "lint": "eslint ./*.ts",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+    "lint": "eslint ./*.js",
+    "format": "prettier --write \"**/*.{js,json}\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DylanHalstead/scrum-mate"
+    "url": "https://github.com/DylanHalstead/scrum-bot"
   },
   "author": "Dylan Halstead",
   "license": "CC-BY-NC-4.0",
@@ -22,9 +22,6 @@
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
-    "@types/node": "^20.4.4",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.45.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
